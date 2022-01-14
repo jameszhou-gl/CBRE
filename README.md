@@ -46,7 +46,7 @@ About how to use param_search and evaluate, you can refer to [CFRnet](https://gi
 
 #### Cite
 
-Please cite out paper if it’s helpful for you.
+Please consider citing this paper if it’s helpful for you.
 
 > ```latex
 > @article{zhou2021cycle,
