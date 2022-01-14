@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 **Data:** there are three datasets in this repository, and you can also download from [The website of Dr. Fredrik D. Johansson](https://www.fredjo.com/).
 
-**Configs: **there are three config.txt for datasets.
+**Configs:** there are three config.txt for datasets.
 
 The implementation of the CBRE network is included in **cbre/cbre_net.py**.
 
