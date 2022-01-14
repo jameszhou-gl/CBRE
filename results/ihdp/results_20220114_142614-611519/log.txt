@@ -1,0 +1,40 @@
+Training with hyperparameters: beta=10, lambda=0.0001
+Train data:data/ihdp/ihdp_npci_1-100.train.npz
+Test data:data/ihdp/ihdp_npci_1-100.test.npz
+Loaded data with shape [672,25]
+Defining graph...
+
+var_enc list: ['encoder/wg_0:0', 'encoder/bi_0:0', 'encoder/wg_1:0', 'encoder/bi_1:0', 'encoder/wg_2:0', 'encoder/bi_2:0', 'encoder/wg_3:0', 'encoder/bi_3:0', 'encoder/wg_4:0', 'encoder/bi_4:0']
+var_de list: ['decoder_0/wg_0:0', 'decoder_0/bi_0:0', 'decoder_0/wg_1:0', 'decoder_0/bi_1:0', 'decoder_0/wg_2:0', 'decoder_0/bi_2:0', 'decoder_0/wg_3:0', 'decoder_0/bi_3:0', 'decoder_0/wg_4:0', 'decoder_0/bi_4:0', 'decoder_1/wg_0:0', 'decoder_1/bi_0:0', 'decoder_1/wg_1:0', 'decoder_1/bi_1:0', 'decoder_1/wg_2:0', 'decoder_1/bi_2:0', 'decoder_1/wg_3:0', 'decoder_1/bi_3:0', 'decoder_1/wg_4:0', 'decoder_1/bi_4:0']
+var_dc list: ['discriminator/wg_0:0', 'discriminator/bi_0:0', 'discriminator/wg_1:0', 'discriminator/bi_1:0', 'discriminator/wg_2:0', 'discriminator/bi_2:0', 'discriminator/dc_p:0', 'discriminator/dc_b_p:0']
+var_pred list: ['pred_0/w_0:0', 'pred_0/b_0:0', 'pred_0/w_1:0', 'pred_0/b_1:0', 'pred_0/w_2:0', 'pred_0/b_2:0', 'pred_0/w_pred:0', 'pred_0/w_pred_1:0', 'pred_0/b_pred:0', 'pred_1/w_0:0', 'pred_1/b_0:0', 'pred_1/w_1:0', 'pred_1/b_1:0', 'pred_1/w_2:0', 'pred_1/b_2:0', 'pred_1/w_pred:0', 'pred_1/w_pred_1:0', 'pred_1/b_pred:0']
+Training on experiment 1/100...
+train num: 471, valid num: 201
+iter: 0. Train: tot_loss: 36.134, pred_loss: 3.919, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 5.988
+iter: 0. Valid: tot_loss: 32.941, pred_loss: 3.608, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 10. Train: tot_loss: 12.620, pred_loss: 1.512, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.191
+iter: 10. Valid: tot_loss: 12.679, pred_loss: 1.328, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 20. Train: tot_loss: 11.927, pred_loss: 1.015, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.030
+iter: 20. Valid: tot_loss: 12.350, pred_loss: 1.088, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 30. Train: tot_loss: 11.911, pred_loss: 0.999, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.008
+iter: 30. Valid: tot_loss: 12.306, pred_loss: 1.069, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 40. Train: tot_loss: 11.871, pred_loss: 0.967, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.012
+iter: 40. Valid: tot_loss: 12.293, pred_loss: 1.060, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 50. Train: tot_loss: 11.866, pred_loss: 0.959, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.005
+iter: 50. Valid: tot_loss: 12.344, pred_loss: 1.097, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 60. Train: tot_loss: 11.908, pred_loss: 0.998, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.012
+iter: 60. Valid: tot_loss: 12.353, pred_loss: 1.114, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 70. Train: tot_loss: 11.863, pred_loss: 0.960, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.011
+iter: 70. Valid: tot_loss: 12.307, pred_loss: 1.072, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 80. Train: tot_loss: 11.862, pred_loss: 0.958, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.019
+iter: 80. Valid: tot_loss: 12.285, pred_loss: 1.051, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 90. Train: tot_loss: 11.877, pred_loss: 0.971, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.024
+iter: 90. Valid: tot_loss: 12.407, pred_loss: 1.138, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 100. Train: tot_loss: 11.898, pred_loss: 0.995, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.017
+iter: 100. Valid: tot_loss: 12.354, pred_loss: 1.109, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 110. Train: tot_loss: 11.872, pred_loss: 0.960, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.033
+iter: 110. Valid: tot_loss: 12.317, pred_loss: 1.073, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 120. Train: tot_loss: 11.853, pred_loss: 0.946, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.024
+iter: 120. Valid: tot_loss: 12.342, pred_loss: 1.086, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000
+iter: 130. Train: tot_loss: 11.837, pred_loss: 0.941, recons: 1.509, cycle: 1.509, dc_loss: 9.999, rep_loss: -0.000, cf_error: 1.008
+iter: 130. Valid: tot_loss: 12.305, pred_loss: 1.065, recons: 1.501, cycle: 1.501, dc_loss: 9.999, rep_loss: -0.000

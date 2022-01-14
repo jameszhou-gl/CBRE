@@ -1,0 +1,49 @@
+Training with hyperparameters: beta=10, lambda=0.0001
+Train data:data/jobs/jobs_DW_bin.train.npz
+Test data:data/jobs/jobs_DW_bin.test.npz
+Loaded data with shape [2891,17]
+Defining graph...
+
+var_enc list: ['encoder/wg_0:0', 'encoder/bi_0:0', 'encoder/wg_1:0', 'encoder/bi_1:0', 'encoder/wg_2:0', 'encoder/bi_2:0', 'encoder/wg_3:0', 'encoder/bi_3:0', 'encoder/wg_4:0', 'encoder/bi_4:0']
+var_de list: ['decoder_0/wg_0:0', 'decoder_0/bi_0:0', 'decoder_0/wg_1:0', 'decoder_0/bi_1:0', 'decoder_0/wg_2:0', 'decoder_0/bi_2:0', 'decoder_0/wg_3:0', 'decoder_0/bi_3:0', 'decoder_0/wg_4:0', 'decoder_0/bi_4:0', 'decoder_1/wg_0:0', 'decoder_1/bi_0:0', 'decoder_1/wg_1:0', 'decoder_1/bi_1:0', 'decoder_1/wg_2:0', 'decoder_1/bi_2:0', 'decoder_1/wg_3:0', 'decoder_1/bi_3:0', 'decoder_1/wg_4:0', 'decoder_1/bi_4:0']
+var_dc list: ['discriminator/wg_0:0', 'discriminator/bi_0:0', 'discriminator/wg_1:0', 'discriminator/bi_1:0', 'discriminator/wg_2:0', 'discriminator/bi_2:0', 'discriminator/dc_p:0', 'discriminator/dc_b_p:0']
+var_pred list: ['pred_0/w_0:0', 'pred_0/b_0:0', 'pred_0/w_1:0', 'pred_0/b_1:0', 'pred_0/w_2:0', 'pred_0/b_2:0', 'pred_0/w_pred:0', 'pred_0/w_pred_1:0', 'pred_0/b_pred:0', 'pred_1/w_0:0', 'pred_1/b_0:0', 'pred_1/w_1:0', 'pred_1/b_1:0', 'pred_1/w_2:0', 'pred_1/b_2:0', 'pred_1/w_pred:0', 'pred_1/w_pred_1:0', 'pred_1/b_pred:0']
+Training on experiment 1/1...
+train num: 2024, valid num: 867
+iter: 0. Train: tot_loss: 6.388, pred_loss: 0.501, recons: 1.581, cycle: 1.581, dc_loss: -0.414, rep_loss: 0.428, cf_error: nan
+iter: 0. Valid: tot_loss: 6.401, pred_loss: 0.502, recons: 1.576, cycle: 1.576, dc_loss: -0.383, rep_loss: 0.405
+iter: 10. Train: tot_loss: 6.164, pred_loss: 0.351, recons: 1.581, cycle: 1.581, dc_loss: -0.619, rep_loss: 0.628, cf_error: nan
+iter: 10. Valid: tot_loss: 6.013, pred_loss: 0.330, recons: 1.576, cycle: 1.576, dc_loss: -0.874, rep_loss: 0.877
+iter: 20. Train: tot_loss: 4.832, pred_loss: 0.352, recons: 1.581, cycle: 1.581, dc_loss: -3.271, rep_loss: 3.335, cf_error: nan
+iter: 20. Valid: tot_loss: 5.438, pred_loss: 0.336, recons: 1.576, cycle: 1.576, dc_loss: -2.011, rep_loss: 3.019
+iter: 30. Train: tot_loss: 16.949, pred_loss: 0.350, recons: 1.581, cycle: 1.581, dc_loss: 20.963, rep_loss: 9.694, cf_error: nan
+iter: 30. Valid: tot_loss: 19.026, pred_loss: 0.327, recons: 1.576, cycle: 1.576, dc_loss: 25.164, rep_loss: 5.916
+iter: 40. Train: tot_loss: 3.811, pred_loss: 0.342, recons: 1.581, cycle: 1.581, dc_loss: -5.314, rep_loss: 6.244, cf_error: nan
+iter: 40. Valid: tot_loss: 4.651, pred_loss: 0.323, recons: 1.576, cycle: 1.576, dc_loss: -3.580, rep_loss: 4.578
+iter: 50. Train: tot_loss: 2.834, pred_loss: 0.338, recons: 1.581, cycle: 1.581, dc_loss: -7.258, rep_loss: 7.635, cf_error: nan
+iter: 50. Valid: tot_loss: 3.694, pred_loss: 0.319, recons: 1.576, cycle: 1.576, dc_loss: -5.491, rep_loss: 5.869
+iter: 60. Train: tot_loss: 2.096, pred_loss: 0.343, recons: 1.581, cycle: 1.581, dc_loss: -8.740, rep_loss: 9.520, cf_error: nan
+iter: 60. Valid: tot_loss: 3.043, pred_loss: 0.328, recons: 1.576, cycle: 1.576, dc_loss: -6.804, rep_loss: 7.602
+iter: 70. Train: tot_loss: 1.946, pred_loss: 0.341, recons: 1.581, cycle: 1.581, dc_loss: -9.041, rep_loss: 10.956, cf_error: nan
+iter: 70. Valid: tot_loss: 2.699, pred_loss: 0.321, recons: 1.576, cycle: 1.576, dc_loss: -7.483, rep_loss: 9.661
+iter: 80. Train: tot_loss: 1.123, pred_loss: 0.342, recons: 1.581, cycle: 1.581, dc_loss: -10.683, rep_loss: 11.803, cf_error: nan
+iter: 80. Valid: tot_loss: 2.150, pred_loss: 0.327, recons: 1.576, cycle: 1.576, dc_loss: -8.584, rep_loss: 9.781
+iter: 90. Train: tot_loss: 0.667, pred_loss: 0.341, recons: 1.581, cycle: 1.581, dc_loss: -11.594, rep_loss: 12.309, cf_error: nan
+iter: 90. Valid: tot_loss: 1.878, pred_loss: 0.326, recons: 1.576, cycle: 1.576, dc_loss: -9.127, rep_loss: 10.298
+iter: 100. Train: tot_loss: 1.132, pred_loss: 0.345, recons: 1.581, cycle: 1.581, dc_loss: -10.668, rep_loss: 12.407, cf_error: nan
+iter: 100. Valid: tot_loss: 1.664, pred_loss: 0.330, recons: 1.576, cycle: 1.576, dc_loss: -9.556, rep_loss: 11.538
+iter: 110. Train: tot_loss: 0.584, pred_loss: 0.340, recons: 1.581, cycle: 1.581, dc_loss: -11.763, rep_loss: 13.563, cf_error: nan
+iter: 110. Valid: tot_loss: 1.521, pred_loss: 0.328, recons: 1.576, cycle: 1.576, dc_loss: -9.846, rep_loss: 11.633
+iter: 120. Train: tot_loss: 0.281, pred_loss: 0.337, recons: 1.581, cycle: 1.581, dc_loss: -12.362, rep_loss: 14.232, cf_error: nan
+iter: 120. Valid: tot_loss: 1.374, pred_loss: 0.325, recons: 1.576, cycle: 1.576, dc_loss: -10.133, rep_loss: 12.187
+iter: 130. Train: tot_loss: 0.483, pred_loss: 0.336, recons: 1.581, cycle: 1.581, dc_loss: -11.960, rep_loss: 13.725, cf_error: nan
+iter: 130. Valid: tot_loss: 1.173, pred_loss: 0.324, recons: 1.576, cycle: 1.576, dc_loss: -10.534, rep_loss: 12.318
+iter: 140. Train: tot_loss: 0.352, pred_loss: 0.339, recons: 1.581, cycle: 1.581, dc_loss: -12.224, rep_loss: 14.172, cf_error: nan
+iter: 140. Valid: tot_loss: 1.204, pred_loss: 0.327, recons: 1.576, cycle: 1.576, dc_loss: -10.475, rep_loss: 12.437
+iter: 149. Train: tot_loss: 0.095, pred_loss: 0.339, recons: 1.581, cycle: 1.581, dc_loss: -12.736, rep_loss: 14.389, cf_error: nan
+iter: 149. Valid: tot_loss: 1.125, pred_loss: 0.326, recons: 1.576, cycle: 1.576, dc_loss: -10.632, rep_loss: 12.473
+Saving result to results/jobs/results_20220114_142710-739343...
+
+
+train run done
+
