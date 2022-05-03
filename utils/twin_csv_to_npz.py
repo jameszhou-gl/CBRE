@@ -48,7 +48,7 @@ def data_trans_twin(train_rate=0.8):
     ## Define observable outcomes
     yf = np.transpose(t) * potential_y[:, 1] + np.transpose(1 - t) * potential_y[:, 0]
     yf = np.reshape(np.transpose(yf), [no, ])
-    ycf = np.transpose(t) * potential_y[:, 1] + np.transpose(1 - t) * potential_y[:, 0]
+    ycf = np.transpose(t) * potential_y[:, 0] + np.transpose(1 - t) * potential_y[:, 1]
     ycf = np.reshape(np.transpose(ycf), [no, ])
 
     ## Train/test division
